@@ -34,11 +34,11 @@
         background-color: rgba(0, 0, 0, 0.75);
         z-index: 2;
       }
-      .separator{
+      .separator {
         border: 1px solid white;
         margin: 0 10px;
       }
-      a{
+      a {
         color: white;
         padding-bottom: 3px;
         border-bottom: 0.5px solid white;
@@ -47,19 +47,17 @@
   </head>
   <body>
     <div class="container overlay">
-      <br>
-      <br>
-      <br>
-      <div class=" d-flex flex-row-reverse bd-highlight mb-5" >
+      <br />
+      <br />
+      <br />
+      <div class="d-flex flex-row-reverse bd-highlight mb-5">
         <div class=""><a href="/trivia">trivia</a></div>
         <div class="separator"></div>
         <div class=""><a href="/trivia">mad</a></div>
         <div class="separator"></div>
         <div class=""><a href="/trivia">challenge</a></div>
       </div>
-      <h5 class="text-center px-5 mx-4">
-        SUBSCRIBE TO TRIVIA GAMES 
-      </h5>
+      <h5 class="text-center px-5 mx-4">SUBSCRIBE TO TRIVIA GAMES</h5>
       <br />
       <div class="row">
         <div class="col-md-6 offset-md-3 col-sm-12">
@@ -74,7 +72,7 @@
             </div>
             <div class="form-group">
               <label for="service">Select Service</label>
-              <select class="form-control" id="service" name="service" >
+              <select class="form-control" id="service" name="service">
                 <option value="trivia">Trivia</option>
                 <option value="mad">M.A.D Games</option>
                 <option value="arena">Arena Games</option>
@@ -100,6 +98,33 @@
           </form>
         </div>
       </div>
+      <br>
+      <section>
+        <div class="">
+          <style>
+            .glow {
+              color: #fff;
+              cursor: default;
+              font-family: monospace;
+              font-weight: bold;
+              font-size: 40px;
+              text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 7px #00ff33,
+                0 0 10px #00ff33, 0 0 10px #00ff33;
+              transition: all 1s;
+            }
+            .glow:hover {
+              text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 8px #00ff33,
+                0 0 10px #00ff33, 0 0 15px #00ff33, 0 0 20px #00ff33,
+                0 0 25px #00ff33, 0 0 30px #00ff33;
+            }
+          </style>
+          <div class="row text-center">
+            <span class="glow"
+              >Must Blow! Over 165K up for grabs everyday. Play and win</span
+            >
+          </div>
+        </div>
+      </section>
     </div>
 
     <script src="https://cdn.rawgit.com/t4t5/sweetalert/v0.2.0/lib/sweet-alert.min.js"></script>
